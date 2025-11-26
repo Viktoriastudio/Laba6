@@ -247,8 +247,7 @@ html {
     color: white;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     margin-left: auto;
-    /* Выравнивание по правому краю как в навигации */
-    margin-right: 8%;
+    margin-right: 5%;
 }
 
 .hero h1 {
@@ -259,7 +258,7 @@ html {
     line-height: 1.1;
     white-space: nowrap;
     text-align: right;
-    margin-left: 0;
+    margin-left: 10%;
     margin-right: 0;
     animation: slideInFromRight 1s ease forwards;
 }
@@ -271,7 +270,7 @@ html {
     font-weight: 500;
     white-space: nowrap;
     text-align: right;
-    margin-left: 0;
+    margin-left: 7%;
     margin-right: 0;
     animation: slideInFromRight 1.2s ease forwards;
 }
@@ -282,7 +281,7 @@ html {
     margin-bottom: 2.5rem;
     text-align: justify;
     line-height: 1.6;
-    margin-left: 0;
+    margin-left: 20%;
     margin-right: 0;
     animation: fadeInUp 1.4s ease forwards;
 }
@@ -797,7 +796,7 @@ html {
         padding: 1rem 5%;
         justify-content: space-between;
     }
-
+    
     .navbar-menu {
         display: none;
         position: absolute;
@@ -810,11 +809,11 @@ html {
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
         text-align: center;
     }
-
+    
     .navbar-menu.active {
         display: flex;
     }
-
+    
     .navbar-toggle {
         display: block;
     }
@@ -879,15 +878,15 @@ html {
     .hero {
         padding: 2rem 1rem;
     }
-
+    
     .hero h1 {
         font-size: 2rem;
     }
-
+    
     .hero h2 {
         font-size: 1.2rem;
     }
-
+    
     .hero p {
         font-size: 0.95rem;
     }
@@ -899,15 +898,15 @@ html {
     .about-text {
         font-size: 1rem;
     }
-
+    
     .achievements-grid {
         grid-template-columns: 1fr;
     }
-
+    
     .achievement-card {
         flex-direction: column;
     }
-
+    
     .achievement-image {
         height: 200px;
     }
@@ -946,15 +945,16 @@ html {
         font-size: 1.2rem;
     }
 }
+
 @media (max-width: 400px) {
     .hero h1 {
         font-size: 1.8rem;
     }
-
+    
     .hero h2 {
         font-size: 1.1rem;
     }
-
+    
     .section-heading {
         font-size: 1.8rem;
     }
@@ -1055,7 +1055,7 @@ html {
     .hero {
         min-height: 100vh;
     }
-
+    
     .about {
         min-height: 80vh;
     }
@@ -1066,17 +1066,14 @@ html {
     .tools {
         background-color: #1a1a1a;
     }
-
+    
     .tool-card {
         background: #2d2d2d;
         color: white;
     }
-
+    
     .tool-name,
     .tool-description {
         color: white;
     }
 }
-
-
-
