@@ -241,13 +241,19 @@ html {
 
 .hero-content {
     position: relative;
-    max-width: 500px;
+    max-width: 600px;
+    width: 100%;
     z-index: 3;
     animation: fadeInUp 1s ease forwards;
     color: white;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     margin-left: auto;
-    margin-right: 5%;
+}
+
+.hero-text-container {
+    max-width: 500px;
+    margin-left: auto;
+    padding-right: 0;
 }
 
 .hero h1 {
@@ -258,7 +264,7 @@ html {
     line-height: 1.1;
     white-space: nowrap;
     text-align: right;
-    margin-left: 10%;
+    margin-left: 0;
     margin-right: 0;
     animation: slideInFromRight 1s ease forwards;
 }
@@ -270,7 +276,7 @@ html {
     font-weight: 500;
     white-space: nowrap;
     text-align: right;
-    margin-left: 7%;
+    margin-left: 0;
     margin-right: 0;
     animation: slideInFromRight 1.2s ease forwards;
 }
@@ -279,10 +285,11 @@ html {
     font-size: 1.1rem;
     color: rgba(255, 255, 255, 0.9);
     margin-bottom: 2.5rem;
-    text-align: justify;
+    text-align: right;
     line-height: 1.6;
-    margin-left: 20%;
+    margin-left: 0;
     margin-right: 0;
+    padding-left: 20%;
     animation: fadeInUp 1.4s ease forwards;
 }
 
@@ -309,6 +316,98 @@ html {
     background: linear-gradient(90deg, var(--color-dark), var(--color-accent));
     box-shadow: 0 10px 25px rgba(76, 103, 148, 0.4);
     transform: translateY(-3px);
+}
+
+/* Адаптивность для Hero секции */
+@media (max-width: 900px) {
+    .hero {
+        padding: 3rem 5%;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .hero-content {
+        max-width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .hero-text-container {
+        max-width: 100%;
+        margin-left: 0;
+        padding-right: 0;
+    }
+    
+    .hero h1 {
+        font-size: 2.2rem;
+        text-align: center;
+        white-space: normal;
+        margin-left: 0;
+    }
+    
+    .hero h2 {
+        font-size: 1.4rem;
+        text-align: center;
+        white-space: normal;
+        margin-left: 0;
+    }
+    
+    .hero p {
+        font-size: 1rem;
+        text-align: center;
+        padding-left: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .cta-button {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero {
+        padding: 2rem 1rem;
+    }
+    
+    .hero h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .hero h2 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    
+    .hero p {
+        font-size: 0.95rem;
+        text-align: center;
+        padding-left: 0;
+    }
+    
+    .hero-content {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+    
+    .hero h2 {
+        font-size: 1.1rem;
+    }
+    
+    .hero p {
+        font-size: 0.9rem;
+    }
+    
+    .cta-button {
+        padding: 0.8rem 1.8rem;
+        font-size: 0.9rem;
+    }
 }
 
 /* Секция "Обо мне" */
