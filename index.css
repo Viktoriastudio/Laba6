@@ -195,7 +195,7 @@ html {
     color: var(--color-primary);
 }
 
-все-таки нужно сделать меньше масштаб изображения, можно ли его уменьшить?/* HERO СЕКЦИЯ */
+/* HERO СЕКЦИЯ */
 .hero {
     position: relative;
     min-height: 100vh;
@@ -1076,3 +1076,4 @@ html {
         color: white;
     }
 }
+
