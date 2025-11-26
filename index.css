@@ -247,7 +247,8 @@ html {
     color: white;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     margin-left: auto;
-    margin-right: 5%;
+    /* Выравнивание по правому краю как в навигации */
+    margin-right: 8%;
 }
 
 .hero h1 {
@@ -258,7 +259,7 @@ html {
     line-height: 1.1;
     white-space: nowrap;
     text-align: right;
-    margin-left: 10%;
+    margin-left: 0;
     margin-right: 0;
     animation: slideInFromRight 1s ease forwards;
 }
@@ -270,7 +271,7 @@ html {
     font-weight: 500;
     white-space: nowrap;
     text-align: right;
-    margin-left: 7%;
+    margin-left: 0;
     margin-right: 0;
     animation: slideInFromRight 1.2s ease forwards;
 }
@@ -281,7 +282,7 @@ html {
     margin-bottom: 2.5rem;
     text-align: justify;
     line-height: 1.6;
-    margin-left: 20%;
+    margin-left: 0;
     margin-right: 0;
     animation: fadeInUp 1.4s ease forwards;
 }
@@ -1076,5 +1077,6 @@ html {
         color: white;
     }
 }
+
 
 
