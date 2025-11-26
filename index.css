@@ -220,7 +220,7 @@ html {
     height: 100%;
     object-fit: cover;
     object-position: center;
-    transform: scale(1);
+    transform: scale(1.1);
     transition: transform 10s ease;
 }
 
@@ -1076,4 +1076,5 @@ html {
         color: white;
     }
 }
+
 
